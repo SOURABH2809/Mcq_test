@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+  .contact-col{
+
+    background-color: #cfffb6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    flex-basis: 48%;
+    padding: 10px;
+    margin:5px;
+    width:100%;
+    
+    
+}
+
+.btn{
+    background-color: rgb(12, 0, 92);
+    color: #ffffff;
+    border-radius: 10px;
+    padding:10px;
+    margin-top: 5px;
+}
+
+.contact form input, .contact form textarea{
+    display: flex;
+    width: 100%;
+    background: #ffffff;
+    padding: 15px;
+    border-color: 10 px;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+    
+
+}
+
+.contact-col span{
+    display: block;
+    margin: 20px 0;
+}
+
+form{
+    margin-top:80px;
+}
